@@ -10,6 +10,7 @@ version = "0.1.0"
 [dependencies]
 python = ">=3.13.3,<3.14"
 ipykernel = ">=6.29.5,<7"
+rdkit = "<=2025.03.1"
 autode = ">=1.4.4,<2"
 cmake = ">=4.0.2,<5"
 xtb = ">=6.7.1,<7"

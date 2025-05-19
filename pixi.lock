@@ -84,7 +84,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libopenblas-0.3.29-pthreads_h94d23a6_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libpng-1.6.47-h943b412_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libpq-17.5-h27ae623_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/librdkit-2025.03.2-h84b0b3c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/librdkit-2025.03.1-h84b0b3c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libsodium-1.0.20-h4ab18f5_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libsqlite-3.49.2-hee588c1_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libssh2-1.11.1-hcf80075_0.conda
@@ -133,7 +133,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/pytz-2025.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyzmq-26.4.0-py313h8e95178_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/qhull-2020.2-h434a139_5.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/rdkit-2025.03.2-py313hc8d2389_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/rdkit-2025.03.1-py313hc8d2389_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.2-h8c095d6_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/reportlab-4.4.1-py313h536fd9c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/rhash-1.4.6-hb9d3cd8_0.conda
@@ -1107,21 +1107,20 @@ packages:
   license: PostgreSQL
   size: 2680582
   timestamp: 1746743259857
-- conda: https://conda.anaconda.org/conda-forge/linux-64/librdkit-2025.03.2-h84b0b3c_0.conda
-  sha256: dd5da602d4712aae5f9393a96146c7196c56c7ac838c407b632a5517a4d63046
-  md5: 66a194f359cdc4959180140b9f8670c7
+- conda: https://conda.anaconda.org/conda-forge/linux-64/librdkit-2025.03.1-h84b0b3c_0.conda
+  sha256: 16724e75f066740e8f791fbc72e5d0007f1a99cb294f612556c9a1f63800899b
+  md5: 738cc6446d840c05ec52579bd776b1f2
   depends:
   - __glibc >=2.17,<3.0.a0
   - cairo >=1.18.4,<2.0a0
+  - freetype >=2.13.3,<3.0a0
   - libboost >=1.86.0,<1.87.0a0
-  - libfreetype >=2.13.3
-  - libfreetype6 >=2.13.3
   - libgcc >=13
   - libstdcxx >=13
   license: BSD-3-Clause
   license_family: BSD
-  size: 9259550
-  timestamp: 1745738810505
+  size: 8785845
+  timestamp: 1743568959646
 - conda: https://conda.anaconda.org/conda-forge/linux-64/libsodium-1.0.20-h4ab18f5_0.conda
   sha256: 0105bd108f19ea8e6a78d2d994a6d4a8db16d19a41212070d2d1d48a63c34161
   md5: a587892d3c13b6621a6091be690dbca2
@@ -1734,19 +1733,18 @@ packages:
   license: LicenseRef-Qhull
   size: 552937
   timestamp: 1720813982144
-- conda: https://conda.anaconda.org/conda-forge/linux-64/rdkit-2025.03.2-py313hc8d2389_0.conda
-  sha256: a3b85e65ed5a848504969b0dedd6fdf572771815779cb05283444d9ea9e9a48d
-  md5: 1f5821a5d3db5bbd9ffed8100e03ba2d
+- conda: https://conda.anaconda.org/conda-forge/linux-64/rdkit-2025.03.1-py313hc8d2389_0.conda
+  sha256: 7f72e9cca159ce2becae6d1edfbcbcce2b4f0549f32dadfae99c2db0d62236ec
+  md5: 0dce6e930abcda2b4697bec6e7c0a8a2
   depends:
   - __glibc >=2.17,<3.0.a0
   - cairo >=1.18.4,<2.0a0
+  - freetype >=2.13.3,<3.0a0
   - libboost >=1.86.0,<1.87.0a0
   - libboost-python >=1.86.0,<1.87.0a0
-  - libfreetype >=2.13.3
-  - libfreetype6 >=2.13.3
   - libgcc >=13
   - libpq >=17.4,<18.0a0
-  - librdkit 2025.03.2 h84b0b3c_0
+  - librdkit 2025.03.1 h84b0b3c_0
   - libstdcxx >=13
   - matplotlib-base
   - numpy >=1.21,<3
@@ -1759,8 +1757,8 @@ packages:
   - sqlalchemy
   license: BSD-3-Clause
   license_family: BSD
-  size: 19969843
-  timestamp: 1745739596324
+  size: 19836115
+  timestamp: 1743569127740
 - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.2-h8c095d6_2.conda
   sha256: 2d6d0c026902561ed77cd646b5021aef2d4db22e57a5b0178dfc669231e06d2c
   md5: 283b96675859b20a825f8fa30f311446
