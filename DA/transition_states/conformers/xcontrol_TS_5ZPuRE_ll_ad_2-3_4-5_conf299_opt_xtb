@@ -1,0 +1,8 @@
+$constrain
+force constant=2
+distance:3, 4, 2.3000
+$
+$constrain
+force constant=2
+distance:5, 6, 2.2977
+$
