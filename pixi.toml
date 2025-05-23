@@ -8,5 +8,9 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-python = ">=3.13.3,<3.14"
-ipykernel = ">=6.29.5,<7"
+python = "<3.13"
+rdkit = "<2024.09"
+xtb = "<6.7"
+ipykernel = "*"
+autode = "*"
+
