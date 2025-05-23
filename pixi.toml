@@ -10,6 +10,7 @@ version = "0.1.0"
 [dependencies]
 python = "<3.13"
 rdkit = "<2024.09"
+libgfortran = "14.*"
 xtb = "<6.7"
 ipykernel = "*"
 autode = "*"
